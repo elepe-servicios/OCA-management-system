@@ -4,7 +4,7 @@
         id="menu_mgmtsystem_configuration_hazards"
         name="Hazards"
         parent="mgmtsystem.menu_mgmtsystem_configuration"
-        groups="mgmtsystem.group_mgmtsystem_manager"
+        group_ids="mgmtsystem.group_mgmtsystem_manager"
         sequence="10"
     />
 
@@ -101,6 +101,6 @@
         action="open_mgmtsystem_hazard_list"
         parent="mgmtsystem.menu_mgmtsystem_manuals"
         sequence="20"
-        groups="mgmtsystem.group_mgmtsystem_manager,mgmtsystem.group_mgmtsystem_auditor,base.group_user"
+        group_ids="mgmtsystem.group_mgmtsystem_manager,mgmtsystem.group_mgmtsystem_auditor,base.group_user"
     />
 </odoo>

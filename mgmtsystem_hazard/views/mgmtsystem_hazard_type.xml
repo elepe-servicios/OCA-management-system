@@ -53,6 +53,6 @@
         action="open_mgmtsystem_hazard_type_list"
         parent="menu_mgmtsystem_configuration_hazards"
         sequence="20"
-        groups="mgmtsystem.group_mgmtsystem_manager"
+        group_ids="mgmtsystem.group_mgmtsystem_manager"
     />
 </odoo>
