@@ -94,14 +94,12 @@
                 <group>
                     <filter
                         name="current"
-                        icon="terp-document-new"
                         domain="[('state','=','open')]"
                         string="Open"
                         help="Open Audits"
                     />
                     <filter
                         name="closed"
-                        icon="terp-camera_test"
                         domain="[('state','=','done')]"
                         string="Closed"
                         help="Closed Audits"
@@ -121,7 +119,7 @@
         <field name="name">mgmtsystem.audit.form</field>
         <field name="model">mgmtsystem.audit</field>
         <field name="arch" type="xml">
-            <form string="Audit" version="7.0">
+            <form string="Audit">
                 <header>
                     <button
                         name="button_close"
