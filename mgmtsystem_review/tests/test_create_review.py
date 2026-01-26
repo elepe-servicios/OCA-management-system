@@ -7,6 +7,7 @@ class TestModelReviewBase(BaseCommon):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+        cls.env = cls.env(context=dict(cls.env.context, tracking_disable=True))
         cls.review = cls.env["mgmtsystem.review"].create(
             {"name": "SampleReview", "date": fields.Datetime.now()}
         )
