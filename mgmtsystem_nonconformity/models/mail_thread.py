@@ -36,8 +36,8 @@ class MailThread(models.AbstractModel):
                         ("res_model", "=", self._name),
                         ("res_id", "in", self.ids),
                     ],
-                    ["res_id"],
-                    ["res_id:count"],
+                    groupby=["res_id"],
+                    aggregates=["__count"],
                 )
             }
             for thread in self:
