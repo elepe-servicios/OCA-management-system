@@ -3,14 +3,14 @@
 
 {
     "name": "Management System - Survey",
-    "version": "18.0.1.0.0",
+    "version": "19.0.1.0.0",
     "author": "Savoir-faire Linux, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/management-system",
     "license": "AGPL-3",
     "category": "Management System",
     "depends": ["mgmtsystem", "survey"],
     "data": ["views/survey_survey.xml"],
-    "installable": False,
+    "installable": True,
     "development_status": "Beta",
     "maintainers": ["max3903"],
 }
