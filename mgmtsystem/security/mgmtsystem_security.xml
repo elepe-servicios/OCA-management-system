@@ -54,7 +54,7 @@
         <field name="privilege_id" ref="res_groups_privilege_management_system" />
         <field name="implied_ids" eval="[(4, ref('group_mgmtsystem_user_manager'))]" />
         <field
-            name="users"
+            name="user_ids"
             eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
         />
     </record>
