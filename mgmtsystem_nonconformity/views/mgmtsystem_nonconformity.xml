@@ -71,7 +71,7 @@
                     <field name="system_id" />
                     <field name="company_id" groups="base.group_multi_company" />
                 </group>
-                <group expand="0" string="Group By...">
+                <group>
                     <filter
                         name="groupby_author"
                         string="Author"

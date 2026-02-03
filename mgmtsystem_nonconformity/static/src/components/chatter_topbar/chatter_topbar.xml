@@ -9,7 +9,7 @@
             <button
                 class="o_ChatterTopbar_button o_ChatterTopbar_buttonNonConformities btn btn-link"
                 type="button"
-                t-att-disabled="!state.thread.isTemporary and !state.thread.hasWriteAccess"
+                t-att-disabled="state.thread.id and !state.thread.hasWriteAccess"
                 t-on-click="onClickShowNonConformities"
                 t-if="state.thread.non_conformity_count !== undefined"
             >

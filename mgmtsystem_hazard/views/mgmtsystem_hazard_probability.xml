@@ -56,6 +56,6 @@
         action="open_mgmtsystem_hazard_probability_list"
         parent="menu_mgmtsystem_configuration_hazards"
         sequence="20"
-        group_ids="mgmtsystem.group_mgmtsystem_manager"
+        groups="mgmtsystem.group_mgmtsystem_manager"
     />
 </odoo>

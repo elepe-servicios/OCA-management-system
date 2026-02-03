@@ -4,7 +4,7 @@
         id="menu_mgmtsystem_configuration_hazards"
         name="Hazards"
         parent="mgmtsystem.menu_mgmtsystem_configuration"
-        group_ids="mgmtsystem.group_mgmtsystem_manager"
+        groups="mgmtsystem.group_mgmtsystem_manager"
         sequence="10"
     />
 
@@ -36,7 +36,7 @@
                     <field name="acceptability" />
                     <field name="company_id" groups="base.group_multi_company" />
                 </group>
-                <group expand="0" string="Group By...">
+                <group>
                     <filter
                         name="group_by_acceptability"
                         string="Accepted"
@@ -100,6 +100,6 @@
         action="open_mgmtsystem_hazard_list"
         parent="mgmtsystem.menu_mgmtsystem_manuals"
         sequence="20"
-        group_ids="mgmtsystem.group_mgmtsystem_manager,mgmtsystem.group_mgmtsystem_auditor,base.group_user"
+        groups="mgmtsystem.group_mgmtsystem_manager,mgmtsystem.group_mgmtsystem_auditor,base.group_user"
     />
 </odoo>

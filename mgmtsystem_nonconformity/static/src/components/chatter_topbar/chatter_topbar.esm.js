@@ -3,8 +3,8 @@ import {patch} from "@web/core/utils/patch";
 
 patch(Chatter.prototype, {
     async onClickShowNonConformities() {
-        if (this.isTemporary) {
-            const saved = await this.doSaveRecord();
+        if (!this.state.thread.id) {
+            const saved = await this.props.saveRecord?.();
             if (!saved) {
                 return;
             }
