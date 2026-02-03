@@ -164,7 +164,7 @@
                     />
                 </field>
 
-                <group expand="0" string="Group By...">
+                <group>
                     <filter
                         string="Partner"
                         icon="terp-partner"
