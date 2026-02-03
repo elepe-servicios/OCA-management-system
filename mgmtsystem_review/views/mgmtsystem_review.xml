@@ -5,7 +5,6 @@
     <record id="view_mgmtsystem_review_line_tree" model="ir.ui.view">
         <field name="name">mgmtsystem.review.line.list</field>
         <field name="model">mgmtsystem.review.line</field>
-        <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name" />
@@ -19,7 +18,6 @@
     <record id="view_mgmtsystem_review_line_filter" model="ir.ui.view">
         <field name="name">mgmtsystem.review.line.filter</field>
         <field name="model">mgmtsystem.review.line</field>
-        <field name="type">search</field>
         <field name="arch" type="xml">
             <search string="Review Lines">
                 <field name="name" />
@@ -34,7 +32,6 @@
 
     <record id="view_mgmtsystem_review_line_form" model="ir.ui.view">
         <field name="name">mgmtsystem.review.line.form</field>
-        <field name="type">form</field>
         <field name="model">mgmtsystem.review.line</field>
         <field name="arch" type="xml">
             <form string="Review Line">
@@ -66,7 +63,6 @@
     <record id="view_mgmtsystem_review_tree" model="ir.ui.view">
         <field name="name">mgmtsystem.review.list</field>
         <field name="model">mgmtsystem.review</field>
-        <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name" readonly="state == 'done'" />
@@ -82,7 +78,6 @@
     <record id="view_mgmtsystem_review_filter" model="ir.ui.view">
         <field name="name">mgmtsystem.review.filter</field>
         <field name="model">mgmtsystem.review</field>
-        <field name="type">search</field>
         <field name="arch" type="xml">
             <search string="Reviews">
                 <group>
@@ -196,7 +191,6 @@
     <record id="view_review_calendar" model="ir.ui.view">
         <field name="name">mgmtsystem.review.calendar</field>
         <field name="model">mgmtsystem.review</field>
-        <field name="type">calendar</field>
         <field eval="2" name="priority" />
         <field name="arch" type="xml">
             <calendar color="name" date_start="date" string="Reviews">

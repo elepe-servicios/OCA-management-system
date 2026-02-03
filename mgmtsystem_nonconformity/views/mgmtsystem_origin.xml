@@ -3,7 +3,6 @@
 
     <record id="view_mgmtsystem_nonconformity_origin_form" model="ir.ui.view">
         <field name="name">mgmtsystem.nonconformity.origin.form</field>
-        <field name="type">form</field>
         <field name="model">mgmtsystem.nonconformity.origin</field>
         <field name="arch" type="xml">
             <form string="Origins of nonconformity">
@@ -29,7 +28,6 @@
     <record id="view_mgmtsystem_nonconformity_origin_tree" model="ir.ui.view">
         <field name="name">mgmtsystem.nonconformity.origin.list</field>
         <field name="model">mgmtsystem.nonconformity.origin</field>
-        <field name="type">list</field>
         <field name="arch" type="xml">
             <list>
                 <field name="sequence" widget="handle" />
