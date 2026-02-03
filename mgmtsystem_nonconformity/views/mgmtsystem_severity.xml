@@ -2,7 +2,6 @@
     <!-- Severity -->
     <record id="view_mgmtsystem_nonconformity_severity_form" model="ir.ui.view">
         <field name="name">mgmtsystem.nonconformity.severity.form</field>
-        <field name="type">form</field>
         <field name="model">mgmtsystem.nonconformity.severity</field>
         <field name="arch" type="xml">
             <form string="Severity of Complaints and Nonconformities">
