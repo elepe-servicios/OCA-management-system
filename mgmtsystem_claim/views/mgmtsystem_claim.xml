@@ -164,8 +164,6 @@
                     />
                 </field>
 
-                <newline />
-
                 <group expand="0" string="Group By...">
                     <filter
                         string="Partner"

@@ -20,7 +20,6 @@
         <field name="name">mgmtsystem.action.filter</field>
         <field name="model">mgmtsystem.action</field>
         <field name="arch" type="xml">
-            <!-- TODO: validation broken somehow -->
             <search string="Action">
                 <field name="name" />
                 <field name="reference" />
@@ -29,7 +28,6 @@
                 <field name="user_id" />
                 <field name="system_id" />
                 <field name="company_id" groups="base.group_multi_company" />
-                <newline />
                 <filter
                     name="pending"
                     string="Pending"
