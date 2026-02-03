@@ -33,7 +33,7 @@
                     string="Pending"
                     domain="[('stage_id.is_ending', '=', False)]"
                 />
-                <separator />
+                <separator/>
                 <filter
                     name="my_actions"
                     string="My Actions"
@@ -44,7 +44,7 @@
                     string="My Followed Actions"
                     domain="[('message_is_follower', '=', True)]"
                 />
-                <separator />
+                <separator/>
                 <filter
                     name="message_needaction"
                     string="Unread Messages"
@@ -55,13 +55,13 @@
                     string="Archived"
                     domain="[('active','=',False)]"
                 />
-                <separator />
+                <separator/>
                 <filter
                     name="activities_my"
                     string="My Activities"
                     domain="[('activity_ids.user_id', '=', uid)]"
                 />
-                <separator />
+                <separator/>
                 <filter
                     name="activities_overdue"
                     string="Late Activities"
@@ -78,7 +78,7 @@
                     string="Future Activities"
                     domain="[('activity_ids.date_deadline', '&gt;', context_today().strftime('%Y-%m-%d'))]"
                 />
-                <group expand="0" string="Group By">
+                <group>
                     <filter
                         name="group_by_user"
                         string="User"
